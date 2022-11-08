@@ -288,8 +288,6 @@ if(isset($_POST['simpan'])){
     }
     $cetak = new Biodata;
     
-    $cetak->Pembuka_table();
-
     $cetak->data1($nama,$tempat,$tanggal,$jenis,$alamat,$agama,$pend,$status,$kata_bijak);
 
 }
