@@ -219,7 +219,7 @@ if(isset($_POST['simpan'])){
 
     class Biodata{
 
-        public function pembuka_table(){
+        public function data1($nama2,$tempat2,$tanggal2,$jenis2,$alamat2,$agama2,$pend2,$status2,$kata_b2){
 
           echo "<center>";
           echo "<div class=container col-md-10>";
@@ -229,98 +229,51 @@ if(isset($_POST['simpan'])){
           echo "</div";
           echo "<div class=card-body>";
           echo "<table class=table>";
-
-        }
-
-        public function data1($nama2){
-        
           echo "<tr>";
           echo "<td>Nama </td>";
           echo "<td> : </td>";
           echo "<td>".$nama2."</td>";
           echo "</tr>";
-
-        } 
-
-        public function data2($tempat2){
-
           echo "<tr>";
           echo "<td>Tempat Lahir </td>";
           echo "<td> : </td>";
           echo "<td>".$tempat2."</td>";
           echo "</tr>";
-
-        }
-        
-
-        public function data3($tanggal2){
-
           echo "<tr>";
           echo "<td>Tanggal Lahir </td>";
           echo "<td> : </td>";
           echo "<td>".$tanggal2."</td>";
           echo "</tr>";
-
-        }
-
-        public function data4($jenis2){
-
           echo "<tr>";
           echo "<td>Jenis Kelamin</td>";
           echo "<td> : </td>";
           echo "<td>".$jenis2."</td>";
           echo "</tr>";
-
-        }
-
-        public function data5($alamat2){
-
           echo "<tr>";
           echo "<td>Alamat</td>";
           echo "<td> : </td>";
           echo "<td>".$alamat2."</td>";
           echo "</tr>";
-
-        }
-
-        public function data6($agama2){
-
           echo "<tr>";
           echo "<td>Agama</td>";
           echo "<td> : </td>";
           echo "<td>".$agama2."</td>";
           echo "</tr>";
-
-        }
-        public function data7($pend2){
-
           echo "<tr>";
           echo "<td>Pendidikan Terakhir</td>";
           echo "<td> : </td>";
           echo "<td>".$pend2."</td>";
           echo "</tr>";
-
-        }
-        public function data8($status2){
-
           echo "<tr>";
           echo "<td>Status</td>";
           echo "<td> : </td>";
           echo "<td>".$status2."</td>";
           echo "</tr>";
-
-        }
-        public function data9($kata_b2){
-
           echo "<tr>";
           echo "<td>Kata-kata Bijak</td>";
           echo "<td> : </td>";
           echo "<td>".$kata_b2."</td>";
           echo "</tr>";
-
-        }
-        public function penutup_table(){
-
           echo "</table>";
           echo "</div>";
           echo "</div>";
@@ -331,23 +284,14 @@ if(isset($_POST['simpan'])){
           echo "<br>";
           echo "<br>";
 
-        }
+        } 
     }
     $cetak = new Biodata;
     
     $cetak->Pembuka_table();
 
-    $cetak->data1($nama);
-    $cetak->data2($tempat);
-    $cetak->data3($tanggal);
-    $cetak->data4($jenis);
-    $cetak->data5($alamat);
-    $cetak->data6($agama);
-    $cetak->data7($pend);
-    $cetak->data8($status);
-    $cetak->data9($kata_bijak);
+    $cetak->data1($nama,$tempat,$tanggal,$jenis,$alamat,$agama,$pend,$status,$kata_bijak);
 
-    $cetak->Penutup_table();
 }
 
 ?>
