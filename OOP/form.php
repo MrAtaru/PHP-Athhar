@@ -223,12 +223,32 @@ if(isset($_POST['simpan'])){
         public function data($nama2,$tempat2,$tanggal2,$jenis2,$alamat2,$agama2,$pend2,$status2,$kata_b2){
 
           echo "<center>";
+
+          // pembuka container
           echo "<div class=container col-md-10>";
+          // pembuka container
+
+          // pembuka card
           echo "<div class=card>";
+          // pembuka card
+
+          // pembuka card header
           echo "<div class=card-header>";
+          // pembuka card header
+
+          // judul
           echo "<center><h3>Biodata Anda</h3></center>";
+          // judul
+
+          // penutup card header
           echo "</div";
+          // penutup card header
+
+          // pembuka card body
           echo "<div class=card-body>";
+          // pembuka card body
+
+          // table
           echo "<table class=table>";
           echo "<tr>";
           echo "<td>Nama </td>";
@@ -276,9 +296,20 @@ if(isset($_POST['simpan'])){
           echo "<td>".$kata_b2."</td>";
           echo "</tr>";
           echo "</table>";
+          // table
+
+          // penutup card body
           echo "</div>";
+          // penutup card body
+
+          // penutup card
           echo "</div>";
+          // penutup card
+
+          // penutup container
           echo "</div>";
+          // penutup container
+
           echo "</center>";
           echo "<br>";
           echo "<br>";
