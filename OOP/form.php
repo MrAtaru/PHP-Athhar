@@ -118,7 +118,8 @@
                         <select class="custom-select" id="inputGroupSelect01" name="agama">
                           <option selected disabled>Pilihlah...</option>
                           <option value="Islam">Islam</option>
-                          <option value="Kristen">Kristen</option>
+                          <option value="Kristen Katolik">Kristen Katolik</option>
+                          <option value="Kristen Protestan">Kristen Protestan</option>
                           <option value="Budha">Budha</option>
                           <option value="Hindu">Hindu</option>
                           <option value="Konghucu">Konghucu</option>
