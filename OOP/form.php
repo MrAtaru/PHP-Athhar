@@ -324,6 +324,7 @@ if(isset($_POST['simpan'])){
           echo "</table>";
           echo "</div>";
           echo "</div>";
+          echo "</div>";
           echo "</center>";
           echo "<br>";
           echo "<br>";
