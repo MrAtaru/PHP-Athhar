@@ -219,7 +219,7 @@ if(isset($_POST['simpan'])){
 
     class Biodata{
 
-        public function data1($nama2,$tempat2,$tanggal2,$jenis2,$alamat2,$agama2,$pend2,$status2,$kata_b2){
+        public function data($nama2,$tempat2,$tanggal2,$jenis2,$alamat2,$agama2,$pend2,$status2,$kata_b2){
 
           echo "<center>";
           echo "<div class=container col-md-10>";
@@ -288,7 +288,7 @@ if(isset($_POST['simpan'])){
     }
     $cetak = new Biodata;
     
-    $cetak->data1($nama,$tempat,$tanggal,$jenis,$alamat,$agama,$pend,$status,$kata_bijak);
+    $cetak->data($nama,$tempat,$tanggal,$jenis,$alamat,$agama,$pend,$status,$kata_bijak);
 
 }
 
