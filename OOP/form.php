@@ -225,31 +225,27 @@ if(isset($_POST['simpan'])){
           echo "<center>";
 
           // pembuka container
-          echo "<div class=container col-md-10>";
+          echo "<div class='container col-md-8'>";
           // pembuka container
 
           // pembuka card
-          echo "<div class=card>";
+          echo "<div class='card'>";
           // pembuka card
 
-          // pembuka card header
-          echo "<div class=card-header>";
-          // pembuka card header
-
-          // judul
-          echo "<center><h3>Biodata Anda</h3></center>";
-          // judul
-
-          // penutup card header
-          echo "</div";
-          // penutup card header
+          // card header
+          echo "<div class='card-header'>";
+          echo "<center>";
+          echo "<h3>Biodata Anda</h3>";
+          echo "</center>";
+          echo "</div>";
+          // card header
 
           // pembuka card body
           echo "<div class=card-body>";
           // pembuka card body
 
           // table
-          echo "<table class=table>";
+          echo "<table class='table table-hover table-borderless'>";
           echo "<tr>";
           echo "<td>Nama </td>";
           echo "<td> : </td>";
